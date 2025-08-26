@@ -5,3 +5,4 @@ let num4 = num3 / num
 let num5 = num3 / num
 let num6 = num3 / num
 let num7 = num3 / num
+let newnum  = 5
