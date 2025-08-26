@@ -1,0 +1,4 @@
+{
+    "editor.codeActions.triggerOnFocusChange": true,
+    "files.autoSave": "onFocusChange"
+}
