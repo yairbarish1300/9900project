@@ -1,0 +1,87 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    #navbar {
+      height: 60px;
+      background-color: blue; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #navbar a {
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      margin: 0 20px; 
+      transition: transform 0.3s ease;
+    }
+    a:hover{
+        transform: scale(1.5);
+    }
+    body{
+        background-color: brown;
+        
+    }
+    main, footer {
+        padding: 20px;
+    }
+    footer {
+      text-align: center;
+    }
+    #slogan, #short-description {
+        text-align: center;
+    }
+    .heading{
+        margin: 10px;
+    }
+
+    #boxes {
+        margin: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;    
+        text-align: center;
+        background-color: slateblue;
+        aspect-ratio: 1 / 1; 
+        transition: transform 0.3s ease;
+        border-radius: 20px;
+    }
+
+    .box:hover{
+           transform: scale(1.1);
+    }
+    #box1{
+        background: url(pichers/dog-7785066_640.jpg);
+        background-repeat: no-repeat; 
+        background-position: center center; 
+        background-size: cover;
+    }
+    #box2{
+        background: url(pichers/lake-7591750_640.jpg);
+        background-repeat: no-repeat; 
+        background-position: center center; 
+        background-size: cover;
+    }
+    #box3{
+        background: url(pichers/snow-8433815_640.jpg);
+        background-repeat: no-repeat; 
+        background-position: center center; 
+        background-size: cover;
+    }
+
+
+
+
