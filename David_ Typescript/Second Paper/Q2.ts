@@ -9,13 +9,13 @@ async function elapsed2<Args extends any[],R>(
     fn: (...args:Args)=>Promise<R>,
     args:Args
 ): Promise<number>{
-    const start:number = performance.now();
+    const start = performance.now();
     await fn(...args);
-    const end:number = performance.now();
+    const end = performance.now();
     return end-start;
 }
 
-const fibonachi = async (n:number, delay:number):Promise<number> => {
+const fibonachi = async (n:number, delay:number) => {
     await new Promise<void>(res=> setTimeout(res, delay));
 
     const fib= (k:number):number=>{

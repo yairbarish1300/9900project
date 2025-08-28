@@ -1,11 +1,3 @@
-const f =(a: number, b?:number)=>{
-    if(!b){
-        return a;
-    }
-    else{
-        return Math.sqrt(a*b);
-    }
-
-}
-console.log(f(2));
-console.log(f(2,8));
+const func =(a: number, b?:number)=>!b?a:Math.sqrt(a*b)
+console.log(func(2));
+console.log(func(2,8));

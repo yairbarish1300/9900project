@@ -1,9 +1,13 @@
 "use strict";
 class Fish {
-    swim() { console.log("blu blu"); }
+    swim() {
+        console.log("blu blu");
+    }
 }
 class Bird {
-    fly() { console.log("tweet tweet"); }
+    fly() {
+        console.log("tweet tweet");
+    }
 }
 const isFish = (pet) => {
     return pet instanceof Fish;

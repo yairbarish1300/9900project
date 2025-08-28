@@ -3,7 +3,7 @@ enum RelationshipStatus{
     married ='Married',
     divorced = 'Divorced',
     widow = 'Widow',
-    none='Does not wanna talk about this'
+    NONE='Does not wanna talk about this'
 }
 const toUpper =(a:RelationshipStatus):void=> console.log(a.toUpperCase());
 
