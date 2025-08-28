@@ -1,4 +1,5 @@
-var p = {
+"use strict";
+const p = {
     fname: "david",
     lname: "brod",
     nickname: "daKing"

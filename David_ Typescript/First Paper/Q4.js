@@ -1,4 +1,5 @@
-var stringify = function (a) {
+"use strict";
+const stringify = (a) => {
     if (typeof a === "string") {
         return a;
     }
